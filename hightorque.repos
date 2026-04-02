@@ -1,0 +1,13 @@
+repositories:
+  src/hightorque_bringup:
+    type: git
+    url: https://github.com/HighTorque-Robotics/hightorque_bringup.git
+    version: main
+  src/hightorque_midware:
+    type: git
+    url: https://github.com/HighTorque-Robotics/hightorque_midware.git
+    version: main
+  src/hightorque_msgs:
+    type: git
+    url: https://github.com/HighTorque-Robotics/hightorque_msgs.git
+    version: main
