@@ -64,13 +64,13 @@ colcon build
 ```
 ~/colcon_ws/
 ├── hightorque.repos
-├── hightorque_bringup/
-├── hightorque_controller/
-├── hightorque_midware/
-├── hightorque_msgs/
-├── hightorque_robot/
-├── humanoid_driver/
-└── ... (其他包)
+└── src
+    ├── hightorque_bringup/
+    ├── hightorque_controller/
+    ├── hightorque_midware/
+    ├── hightorque_msgs/
+    ├── hightorque_robot/
+    └── ... (other packages)
 ```
 
 ## 为什么不需要 clone 这个仓库？

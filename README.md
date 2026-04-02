@@ -64,13 +64,13 @@ After running `vcs import`, your workspace will contain:
 ```
 ~/colcon_ws/
 ├── hightorque.repos
-├── hightorque_bringup/
-├── hightorque_controller/
-├── hightorque_midware/
-├── hightorque_msgs/
-├── hightorque_robot/
-├── humanoid_driver/
-└── ... (other packages)
+└── src
+    ├── hightorque_bringup/
+    ├── hightorque_controller/
+    ├── hightorque_midware/
+    ├── hightorque_msgs/
+    ├── hightorque_robot/
+    └── ... (other packages)
 ```
 
 ## Why Not Clone This Repository?
